@@ -1,3 +1,7 @@
+// Prendo gli elementi dal DOM
+const listElement = document.getElementById('numbers-list');
+
+
 // Ciclo FOR:
 for (let i = 1; i <= 100; i++) {
 
@@ -15,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
 
     }
 
-    // Stampiamo in console
+    // Stampiamo in pagina
     console.log(content);
-
+    listElement.innerHTML += `<li>${content}</li>`;
 }
