@@ -18,10 +18,25 @@ h1{
     color: white;
     text-align: center;
 }
+ul{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid white;
+    padding: 20px;
+    height: 90vh;
+    overflow-y: scroll;
+}
 ul li{
     list-style-type: none;
     color: yellow;
     font-size: 28px;
     font-weight: 700;
+    border: dotted rgb(251, 255, 145) 1px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    line-height: 500%;
 }
 /*Utilties*/
