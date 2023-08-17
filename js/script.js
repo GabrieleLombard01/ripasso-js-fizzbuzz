@@ -21,5 +21,5 @@ for (let i = 1; i <= 100; i++) {
 
     // Stampiamo in pagina
     console.log(content);
-    listElement.innerHTML += `<li>${content}</li>`;
+    listElement.innerHTML += `<li class="${content}">${content}</li>`;
 }

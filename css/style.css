@@ -40,3 +40,12 @@ ul li{
     line-height: 500%;
 }
 /*Utilties*/
+.Buzz{
+    background-color: rgb(73, 73, 0);
+}
+.Fizz{
+    background-color: rgb(10, 65, 0);
+}
+.FizzBuzz{
+    background-color: rgb(94, 2, 2);
+}
