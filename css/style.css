@@ -10,5 +10,18 @@
 /*Pseudo-classes*/
 
 /*Generics*/
-
+body{
+    background-color: rgb(39, 39, 39);
+}
+h1{
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    color: yellow;
+    font-size: 28px;
+    font-weight: 700;
+}
 /*Utilties*/
